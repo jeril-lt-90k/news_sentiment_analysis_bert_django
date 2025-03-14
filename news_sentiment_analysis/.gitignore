@@ -1,0 +1,38 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore database files (if using SQLite)
+db.sqlite3
+*.sqlite3
+
+# Ignore Django migrations cache
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore media/uploads (if needed)
+media/
+
+# Ignore static files (optional if using collectstatic)
+staticfiles/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db

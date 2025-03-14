@@ -1,0 +1,8 @@
+
+Django
+djangorestframework
+djangorestframework-authtoken
+django-cors-headers
+requests
+torch
+transformers
